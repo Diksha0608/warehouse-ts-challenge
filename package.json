@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
-    "start": "ts-node ./src/index.ts",
+    "start": "ts-node ./src/example.ts",
     "serve": "json-server ./src/data-server/index.js",
     "lint": "echo \"Not implemented yet\" && exit 1",
     "lint:fix": "echo \"Not implemented yet\" && exit 1"
@@ -26,6 +26,8 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
-    "json-server": "^0.17.4"
+    "axios": "^1.6.7",
+    "json-server": "^0.17.4",
+    "tslib": "^2.6.2"
   }
 }

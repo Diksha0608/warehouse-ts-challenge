@@ -11,7 +11,9 @@
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "allowJs": true,
+    "outDir": "dist"
   },
-  "include": ["src/**/*.ts", "src/*.ts"],
+  "include": ["src/**/*.ts", "src/*.ts", "src/data-server/index.js"],
   "exclude": ["node_modules"]
 }
